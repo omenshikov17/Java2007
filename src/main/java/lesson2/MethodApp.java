@@ -8,7 +8,9 @@ public class MethodApp {
         int v3 = multiplication(v1, v2);
 
 
-        System.out.println("v1 = " + v1 + "v2 = " + v2 + "v3 = " + v3);
+        PrintUtil.printFormatted("v1 = " + v1 + " v2 = " + v2 + " v3 = " + v3);
+
+        PrintUtil.printFormatted("string to format");
 
     }
     public static int multiplication(int n1, int n2) {
